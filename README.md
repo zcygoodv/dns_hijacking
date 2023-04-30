@@ -19,9 +19,9 @@ arp欺骗：
 dns劫持：
 
 ```
-wlidns.exe "网卡描述(ipconfig /all)" 受害者ip "要劫持的根域名"
+dns_hijacking "网卡描述(ipconfig /all)" 受害者ip "要劫持的根域名"
 
-wlidns.exe "Intel(R) PRO/1000 MT Network Connection" 192.168.213.188 "baidu.com,2345.cc,2345.com,bing.com"
+dns_hijacking "Intel(R) PRO/1000 MT Network Connection" 192.168.213.188 "baidu.com,2345.cc,2345.com,bing.com"
 ```
 
 
